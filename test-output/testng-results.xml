@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Reading from Property File]]>
+    </line>
+    <line>
+      <![CDATA[Data is:https://neostox.com/]]>
+    </line>
+    <line>
+      <![CDATA[Launch Url]]>
+    </line>
+    <line>
+      <![CDATA[Wait for time is:1000ms]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on SignIn Button]]>
+    </line>
+    <line>
+      <![CDATA[Wait for time is:1000ms]]>
+    </line>
+    <line>
+      <![CDATA[Entering Mobile No.]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on signIn Button]]>
+    </line>
+    <line>
+      <![CDATA[Wait for time is:1000ms]]>
+    </line>
+    <line>
+      <![CDATA[Entring password]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on submit Button]]>
+    </line>
+    <line>
+      <![CDATA[Wait for time is:5000ms]]>
+    </line>
+    <line>
+      <![CDATA[Ok Popup handle]]>
+    </line>
+    <line>
+      <![CDATA[Close Popup handle]]>
+    </line>
+    <line>
+      <![CDATA[Wait for time is:0ms]]>
+    </line>
+    <line>
+      <![CDATA[Wait for time is:5000ms]]>
+    </line>
+    <line>
+      <![CDATA[LogOut From NeoStock Accout]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-01-15T12:15:40 IST" name="Default suite" finished-at="2023-01-15T12:15:58 IST" duration-ms="18039">
+    <groups>
+    </groups>
+    <test started-at="2023-01-15T12:15:40 IST" name="Default test" finished-at="2023-01-15T12:15:58 IST" duration-ms="18039">
+      <class name="neoStockTestClasses.ValidateWatchList">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:neoStockTestClasses.ValidateWatchList@183ec003]" started-at="2023-01-15T12:15:40 IST" name="LaunchApplication" finished-at="2023-01-15T12:15:45 IST" duration-ms="4919" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Reading from Property File]]>
+            </line>
+            <line>
+              <![CDATA[Data is:https://neostox.com/]]>
+            </line>
+            <line>
+              <![CDATA[Launch Url]]>
+            </line>
+            <line>
+              <![CDATA[Wait for time is:1000ms]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method is-config="true" signature="ValidateUserName()[pri:0, instance:neoStockTestClasses.ValidateWatchList@183ec003]" started-at="2023-01-15T12:15:45 IST" name="ValidateUserName" finished-at="2023-01-15T12:15:56 IST" duration-ms="10760" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on SignIn Button]]>
+            </line>
+            <line>
+              <![CDATA[Wait for time is:1000ms]]>
+            </line>
+            <line>
+              <![CDATA[Entering Mobile No.]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on signIn Button]]>
+            </line>
+            <line>
+              <![CDATA[Wait for time is:1000ms]]>
+            </line>
+            <line>
+              <![CDATA[Entring password]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on submit Button]]>
+            </line>
+            <line>
+              <![CDATA[Wait for time is:5000ms]]>
+            </line>
+            <line>
+              <![CDATA[Ok Popup handle]]>
+            </line>
+            <line>
+              <![CDATA[Close Popup handle]]>
+            </line>
+            <line>
+              <![CDATA[Wait for time is:0ms]]>
+            </line>
+            <line>
+              <![CDATA[Wait for time is:5000ms]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidateUserName -->
+        <test-method signature="watchListOfNeostaock()[pri:0, instance:neoStockTestClasses.ValidateWatchList@183ec003]" started-at="2023-01-15T12:15:56 IST" name="watchListOfNeostaock" finished-at="2023-01-15T12:15:56 IST" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- watchListOfNeostaock -->
+        <test-method is-config="true" signature="logoutneoStock()[pri:0, instance:neoStockTestClasses.ValidateWatchList@183ec003]" started-at="2023-01-15T12:15:56 IST" name="logoutneoStock" finished-at="2023-01-15T12:15:58 IST" duration-ms="2009" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[LogOut From NeoStock Accout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutneoStock -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:neoStockTestClasses.ValidateWatchList@183ec003]" started-at="2023-01-15T12:15:58 IST" name="closeBrowser" finished-at="2023-01-15T12:15:58 IST" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- neoStockTestClasses.ValidateWatchList -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
