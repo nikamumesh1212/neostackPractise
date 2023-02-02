@@ -6,14 +6,14 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Reporter;
 
-public class gitpageChange1 {
+public class gitpage002 {
 
 	@FindBy(xpath = "(//input[@class='form-control'])[1]") private WebElement mobileField;
 	@FindBy(id="lnk_signup1") private WebElement signInClick ;
 	@FindBy(xpath = "//span[text()='Invalid Mobile Number']") private WebElement MobileInvalidMsg2;
 	@FindBy(id="MainContent_signinsignup_reqfld1") private WebElement MobileInvalidMsg1;
 	
-	public gitpageChange1(WebDriver driver) {
+	public gitpage002(WebDriver driver) {
 		PageFactory.initElements(driver,this);
 	}
 	public void EnterMobileNo(String mobno) {
